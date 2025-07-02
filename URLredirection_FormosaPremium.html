@@ -2,10 +2,77 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=https://www.formosa-premium.com.tw/" />
-  <title>頁面轉向中...</title>
+  <meta http-equiv="refresh" content="5; url=https://www.formosa-premium.com.tw/" />
+  <title>轉址中 - 台塑嚴選</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #ecf4eb;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #333;
+    }
+    .container {
+      text-align: center;
+      background-color: #ffffff;
+      padding: 30px 50px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 100%;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 15px;
+      color: #009a5b; /* Dark Green */
+    }
+    p {
+      font-size: 18px;
+      margin: 10px 0;
+      color: #555;
+    }
+    .link {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background-color: #009a5b; /* Dark Green */
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+    }
+    .link:hover {
+      background-color: #004d1a;
+    }
+    .spinner {
+      margin: 20px auto;
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid #006400;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 2s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
 </head>
 <body>
-  <p>如果您的瀏覽器沒有自動轉向，請點擊以下連結：<a href="https://www.formosa-premium.com.tw/">前往台塑嚴選|台塑蔬菜購物網</a></p>
+  <div class="container">
+    <img src="https://shoplineimg.com/61aee0defaf6dc003221bdfe/68340a3abe896b000e08607c/450x.webp?source_format=png">
+    <h1>正在轉向至新網站...</h1>
+    <div class="spinner"></div>
+    <p>若您的瀏覽器未能自動跳轉，請點擊以下連結：</p>
+    <a href="https://www.formosa-premium.com.tw/" class="link">前往台塑嚴選|台塑蔬菜購物網</a>
+    <p>感謝您的耐心等待。</p>
+  </div>
 </body>
 </html>
